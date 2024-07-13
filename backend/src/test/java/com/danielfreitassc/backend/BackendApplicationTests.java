@@ -1,10 +1,10 @@
-package com.daniel.loja;
+package com.danielfreitassc.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LojaApplicationTests {
+class BackendApplicationTests {
 
 	@Test
 	void contextLoads() {

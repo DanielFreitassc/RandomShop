@@ -1,13 +1,13 @@
-package com.daniel.loja;
+package com.danielfreitassc.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LojaApplication {
+public class BackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LojaApplication.class, args);
+		SpringApplication.run(BackendApplication.class, args);
 	}
 
 }
