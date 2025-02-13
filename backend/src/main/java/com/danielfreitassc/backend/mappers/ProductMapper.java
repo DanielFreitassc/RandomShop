@@ -1,12 +1,16 @@
 package com.danielfreitassc.backend.mappers;
 
 import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
 
-import com.danielfreitassc.backend.dtos.ProductDTO;
+import com.danielfreitassc.backend.dtos.ProductRequestDTO;
+import com.danielfreitassc.backend.dtos.ProductResponseDto;
 import com.danielfreitassc.backend.models.ProductEntity;
 
 @Mapper(componentModel = "spring")
 public interface ProductMapper {
-    ProductDTO toDto(ProductEntity productEntity);
-    ProductEntity toEntity(ProductDTO productDTO);
+    ProductResponseDto toDto(ProductEntity productEntity);
+    
+    @Mapping(target = "id", ignore =  true)
+    ProductEntity toEntity(ProductRequestDTO productRequestDTO);
 }

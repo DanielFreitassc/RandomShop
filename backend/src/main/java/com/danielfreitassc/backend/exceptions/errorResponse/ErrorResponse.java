@@ -1,18 +1,10 @@
 package com.danielfreitassc.backend.exceptions.errorResponse;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+public record ErrorResponse(
+    String status,
+    String message
+) {
+    
 
-@Getter
-@Setter
-@NoArgsConstructor
-public class ErrorResponse {
-    private String status;
-    private String message;
-
-    public ErrorResponse(String status, String message) {
-        this.status = status;
-        this.message = message;
-    }
+   
 }
