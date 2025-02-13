@@ -1,4 +1,4 @@
-# Projeto de uma loja web feita com java e javascript
+# Projeto de uma loja web feita com
 
 # Cadastro de produto
 ```yml
