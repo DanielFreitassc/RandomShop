@@ -61,4 +61,3 @@ payload
 "price": 12.2,
 "available":true
 ```
-
